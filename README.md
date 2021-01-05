@@ -22,6 +22,8 @@ The SimpleServer listens on a port given as command line argument. The SimpleCli
 server on an address, and a port, both given on the command line. It then writes "Hi" to the 
 server. ReqHandler handles request received by the SimpleServer.
 
+Please see the source code comments for more in depth documentation.
+
 ### How to run
 First create a SimpleClient and a SimpleServer jar by running maven
 ``` bash
@@ -74,6 +76,8 @@ The SSLServer listens on a port given as command line argument. The SSLCLient co
 server on an address, and a port, both given on the command line. It then writes "Hi" to the
 server. ReqHandler handles request received by the SimpleServer. AbstractSSL is extended by 
 both SSLClient and SSLServer. 
+
+Please see the source code comments for more in depth documentation.
 
 ### How to run
 First compile the program
