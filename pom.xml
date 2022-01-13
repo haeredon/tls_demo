@@ -12,6 +12,16 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+         
+           <dependencies>
+<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/fop -->
+<dependency>
+    <groupId>org.apache.xmlgraphics</groupId>
+    <artifactId>fop</artifactId>
+    <version>1.0</version>
+</dependency>
+
+  </dependencies>
 
     <build>
     <plugins>
